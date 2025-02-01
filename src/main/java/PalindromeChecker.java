@@ -54,7 +54,7 @@ public String reverse(String str)
 public String letters(String str){
   String s = "";
   for(int i = 0; i < str.length(); i++){
-    if(Character.isLetter(str.charAt(i)){
+    if(Character.isLetter(str.charAt(i))){
       s = s + str.charAt(i);
     }
   }
